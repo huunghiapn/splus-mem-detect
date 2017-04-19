@@ -4,7 +4,7 @@ var app = angular.module('app', []);
 app.factory('recognizeService', function($http) {
     return {
         recognize: function(imgLink) {
-            var url = 'https://wt-huyhoang8a5-gmail-com-0.run.webtask.io/idol-recognize';
+            var url = 'https://wt-db53b18966382f7a05192dc8caac9930-0.run.webtask.io/splus-mems-detect';
             return $http({
                 method: 'POST',
                 url,
@@ -51,21 +51,13 @@ app.controller('mainCtrl', function($scope, recognizeService) {
     }
 
     // Danh sách ảnh để test
-    $scope.testImages = ["http://tse3.mm.bing.net/th?id=OIP.M62d737028ee51f22482fab76bdfe112do1&pid=15.1", "http://tse4.mm.bing.net/th?id=OIP.M93d1646690a0f345e561a80523529bb2o1&pid=15.1", "http://media.ngoisao.vn/resize_580/news/2014/11/30/miu-le-20.jpg", "http://static.giaoducthoidai.vn/uploaded/hainv/2016_01_27/images16422691452168028hotgirlhaiphongxinhnhumong191657_uzve.jpg?width=500"];
+    $scope.testImages = ["http://nghianguyenit.net/faces_data/nghianh.jpg", "http://nghianguyenit.net/faces_data/cancc.jpg", "http://nghianguyenit.net/faces_data/dinhlt.jpg", "http://nghianguyenit.net/faces_data/kylbh.jpg"];
 
     // Danh sách idol
     $scope.idols = [
-        "Ngọc Trinh",
-        "Bà tưng",
-        "Hường Hana",
-        "Hoàng Thùy Linh",
-        "Elly Trần",
-        "Thuỷ Top",
-        "Tâm Tít",
-        "Midu",
-        "Miu Lê",
-        "Chi Pu",
-        "Khả Ngân",
-        "Angela Phương Trinh"
+        "Lê Trạch Dinh",
+        "Nguyễn Hữu Nghĩa",
+        "Cù Công Cẩn",
+        "Lê Bùi Hồng Ký"
     ];
 });
