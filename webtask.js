@@ -55,7 +55,7 @@ function identify(faceIds) {
             'Ocp-Apim-Subscription-Key': key
         },
         body: {
-            "personGroupId": 'vav-idols',
+            "personGroupId": 'splus-mems',
             "faceIds": faceIds,
             "maxNumOfCandidatesReturned": 1,
         },
