@@ -51,7 +51,7 @@ app.controller('mainCtrl', function($scope, recognizeService) {
     }
 
     // Danh sách ảnh để test
-    $scope.testImages = ["http://nghianguyenit.net/faces_data/nghianh.jpg", "http://nghianguyenit.net/faces_data/cancc.jpg", "http://nghianguyenit.net/faces_data/dinhlt.jpg", "http://nghianguyenit.net/faces_data/kylbh.jpg"];
+    $scope.testImages = ["http://nghianguyenit.net/faces_data/nghianh.jpg", "http://nghianguyenit.net/faces_data/cucongcan.JPG", "http://nghianguyenit.net/faces_data/dinhlt.jpg", "http://nghianguyenit.net/faces_data/kylbh.jpg"];
 
     // Danh sách idol
     $scope.idols = [
