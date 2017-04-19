@@ -110,107 +110,41 @@ function recognize(imageUrl) {
 // Thay bằng nội dung trong file idol-person.json của bạn
 idolPerson = [
     {
-        "id":1,
-        "name":"Lê Trạch Dinh",
-        "images":[{
-        "thumbnail":"http://nghianguyenit.net/faces_data/dinhlt/03_1.jpg",
-        "image":"http://nghianguyenit.net/faces_data/dinhlt/03_1.jpg"
-        }]
+        "personId": "1ca88de9-033b-411a-a144-4145ebb31dad",
+        "persistedFaceIds": [],
+        "name": "Lê Trạch Dinh",
+        "userData": "1"
     },
     {
-        "id":2,
-        "name":"Nguyễn Hữu Nghĩa",
-        "images":[{
-        "thumbnail":"http://nghianguyenit.net/faces_data/nghianh/01_1.jpg",
-        "image":"http://nghianguyenit.net/faces_data/nghianh/01_1.jpg"
-        },
-        {
-        "thumbnail":"http://nghianguyenit.net/faces_data/nghianh/01_2.jpg",
-        "image":"http://nghianguyenit.net/faces_data/nghianh/01_2.jpg"
-        },
-        {
-        "thumbnail":"http://nghianguyenit.net/faces_data/nghianh/01_3.jpg",
-        "image":"http://nghianguyenit.net/faces_data/nghianh/01_3.jpg"
-        },
-        {
-        "thumbnail":"http://nghianguyenit.net/faces_data/nghianh/01_4.jpg",
-        "image":"http://nghianguyenit.net/faces_data/nghianh/01_4.jpg"
-        }
-        ,{
-        "thumbnail":"http://nghianguyenit.net/faces_data/nghianh/01_5.jpg",
-        "image":"http://nghianguyenit.net/faces_data/nghianh/01_5.jpg"
-        },
-        {
-        "thumbnail":"http://nghianguyenit.net/faces_data/nghianh/01_6.jpg",
-        "image":"http://nghianguyenit.net/faces_data/nghianh/01_6.jpg"
-        },
-        {
-        "thumbnail":"http://nghianguyenit.net/faces_data/nghianh/01_7.jpg",
-        "image":"http://nghianguyenit.net/faces_data/nghianh/01_7.jpg"
-        },
-        {
-        "thumbnail":"http://nghianguyenit.net/faces_data/nghianh/01_8.jpg",
-        "image":"http://nghianguyenit.net/faces_data/nghianh/01_8.jpg"
-        },
-        {
-        "thumbnail":"http://nghianguyenit.net/faces_data/nghianh/01_9.jpg",
-        "image":"http://nghianguyenit.net/faces_data/nghianh/01_9.jpg"
-        },
-        {
-        "thumbnail":"http://nghianguyenit.net/faces_data/nghianh/01_10.jpg",
-        "image":"http://nghianguyenit.net/faces_data/nghianh/01_10.jpg"
-        }]
+        "personId": "41e2afcf-1b04-45ed-b707-467ecb6ba0c7",
+        "persistedFaceIds": [],
+        "name": "Lê Bùi Hồng Ký",
+        "userData": "4"
     },
     {
-        "id":3,
-        "name":"Cù Công Cẩn",
-        "images":[{
-        "thumbnail":"http://nghianguyenit.net/faces_data/cancc/02_1.jpg",
-        "image":"http://nghianguyenit.net/faces_data/cancc/02_1.jpg"
-        },
-        {
-        "thumbnail":"http://nghianguyenit.net/faces_data/cancc/02_2.jpg",
-        "image":"http://nghianguyenit.net/faces_data/cancc/02_2.jpg"
-        },
-        {
-        "thumbnail":"http://nghianguyenit.net/faces_data/cancc/02_3.jpg",
-        "image":"http://nghianguyenit.net/faces_data/cancc/02_3.jpg"
-        },
-        {
-        "thumbnail":"http://nghianguyenit.net/faces_data/cancc/02_4.jpg",
-        "image":"http://nghianguyenit.net/faces_data/cancc/02_4.jpg"
-        }
-        ,{
-        "thumbnail":"http://nghianguyenit.net/faces_data/cancc/02_5.jpg",
-        "image":"http://nghianguyenit.net/faces_data/cancc/02_5.jpg"
-        },
-        {
-        "thumbnail":"http://nghianguyenit.net/faces_data/cancc/02_6.jpg",
-        "image":"http://nghianguyenit.net/faces_data/cancc/02_6.jpg"
-        },
-        {
-        "thumbnail":"http://nghianguyenit.net/faces_data/cancc/02_7.jpg",
-        "image":"http://nghianguyenit.net/faces_data/cancc/02_7.jpg"
-        },
-        {
-        "thumbnail":"http://nghianguyenit.net/faces_data/cancc/02_8.jpg",
-        "image":"http://nghianguyenit.net/faces_data/cancc/02_8.jpg"
-        },
-        {
-        "thumbnail":"http://nghianguyenit.net/faces_data/cancc/02_9.jpg",
-        "image":"http://nghianguyenit.net/faces_data/cancc/02_9.jpg"
-        },
-        {
-        "thumbnail":"http://nghianguyenit.net/faces_data/cancc/02_10.jpg",
-        "image":"http://nghianguyenit.net/faces_data/cancc/02_10.jpg"
-        }]
+        "personId": "af138cf3-3405-469e-a9f4-1b2565a1d2f3",
+        "persistedFaceIds": [
+            "345a2535-2c58-4d80-8b0e-a4cff6a25e78",
+            "40d2e2a6-7505-48c2-8209-4e042014134f",
+            "46d0662a-8c39-4278-b420-bd07bf286750",
+            "9b3bcffe-855d-4304-a9ca-5056ad37eed9",
+            "c51b3be8-d98b-4643-8376-2d1cfb798167",
+            "cd1dfa70-a217-43a5-aab7-53bd1cf8ed20"
+        ],
+        "name": "Nguyễn Hữu Nghĩa",
+        "userData": "2"
     },
     {
-        "id":4,
-        "name":"Lê Bùi Hồng Ký",
-        "images":[{
-        "thumbnail":"http://nghianguyenit.net/faces_data/kylbh/04_1.jpg",
-        "image":"http://nghianguyenit.net/faces_data/kylbh/04_1.jpg"
-        }]
+        "personId": "d98968d3-a223-4109-a06e-7bba9c677860",
+        "persistedFaceIds": [
+            "2b3e04e8-ee70-4e90-8642-162e399aa224",
+            "3834a8c6-f15d-4227-9f8a-7d7d4a236a0e",
+            "89590aed-e9e9-4d07-95a2-ad94f1277468",
+            "d18b4948-4852-4956-855d-9886eb9a16cf",
+            "dc16fe81-f6d1-4391-936e-8f30b3c8ecd9",
+            "f250e035-a308-4393-85b6-805654debc31"
+        ],
+        "name": "Cù Công Cẩn",
+        "userData": "3"
     }
 ];
